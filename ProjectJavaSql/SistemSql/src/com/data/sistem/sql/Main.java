@@ -16,7 +16,7 @@ public class Main {
 
 	protected static Scanner input = new Scanner(System.in);
 	
-	public static void methodAutos() {
+	private static void methodAutos() {
 		Map<Integer, MapsCarsT> addAutoNew = new HashMap<>();
 		addAutoNew.put(1, new MapsCarsT("CHEVROLET", "ROJO", "P7181-66"));
 		addAutoNew.put(2, new MapsCarsT("TOYOTA", "NEGRO-AZUL", "P98182-6"));
