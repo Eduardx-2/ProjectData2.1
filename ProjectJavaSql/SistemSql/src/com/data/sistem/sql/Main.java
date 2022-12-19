@@ -103,13 +103,13 @@ public class Main {
 
     }
     
-    public static void outPerson(List<Person> personName) {
+    private static void outPerson(List<Person> personName) {
     	for(Person x : personName) {
     		System.out.println(x);
     	}
     }
     
-   	public static void addCars(Map<Integer, MapsCarsT> addAutoNew) {
+   	private static void addCars(Map<Integer, MapsCarsT> addAutoNew) {
    		for(Map.Entry<Integer,MapsCarsT> p : addAutoNew.entrySet()) {
    			System.out.println(addAutoNew.values());
    		}
